@@ -7,6 +7,6 @@ class Person
 
  def initialize(butes)
    binding.pry
-  # butes.each{|key, value| self.send (("#{key}="), value)}
+  # butes.each {|key, value| self.send (("#{key}="), value)}
  end
 end
