@@ -5,5 +5,5 @@ class Person
 
  def initialize(butes)
    butes.each{|key, value| self.send (("#{key}="), value)}
-  #your code here
+ end
 end
